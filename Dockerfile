@@ -29,7 +29,6 @@ EXPOSE 8088
 # Set environment variables for admin credentials
 ENV SUPERSET_ADMIN_USERNAME
 ENV SUPERSET_ADMIN_PASSWORD
-ENV SUPERSET_ADMIN_EMAIL
 
 # Database migration, Admin user creation, Initialize Superset
 RUN superset db upgrade && \
